@@ -1,5 +1,5 @@
 all=int(input())
-ctrl=pow(2,alt)
+ctrl=pow(2,all)
 zol=[]
 for i in range(ctrl):
     mll=bin(i).replace("0b","")
