@@ -1,9 +1,9 @@
-all=int(input())
-ctrl=pow(2,all)
-zol=[]
-for i in range(ctrl):
-    mll=bin(i).replace("0b","")
-    zol.append(mll.zfill(all))
-    zol.sort(key=(lambda y:y.count('l')))
-for i in zol:
+a1t=int(input())
+b1t=pow(2,a1t)
+z1t=[]
+for i in range(bt1):  
+    m1t=bin(i).replace("0b","")
+    z1t.append(m1t.zfill(a1t))
+    z1t.sort(key=(lambda x:x.count('1')))
+for i in z1t:
     print(i)
