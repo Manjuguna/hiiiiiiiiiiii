@@ -4,6 +4,6 @@ zol=[]
 for i in range(ctrl):
     mll=bin(i).replace("0b","")
     zol.append(mll.zfill(all))
-    zol.sort(key=(lambada y:y.count('l')))
+    zol.sort(key=(lambda y:y.count('l')))
 for i in zol:
     print(i)
