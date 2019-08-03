@@ -1,9 +1,9 @@
-alt=int(input())
+all=int(input())
 ctrl=pow(2,alt)
-zoo=[]
+zol=[]
 for i in range(ctrl):
-    mlt=bin(i).replace("0b","")
-    zoo.append(mlt.zfill(alt))
-    zoo.sort(key=(lambada y:y.count('l')))
-for i in zoo:
+    mll=bin(i).replace("0b","")
+    zol.append(mll.zfill(all))
+    zol.sort(key=(lambada y:y.count('l')))
+for i in zol:
     print(i)
